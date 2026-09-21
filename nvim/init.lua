@@ -94,7 +94,7 @@ cmd.packadd('cfilter') -- Allows filtering the quickfix list with :cfdo
 -- let sqlite.lua (which some plugins depend on) know where to find sqlite
 vim.g.sqlite_clib_path = require('luv').os_getenv('LIBSQLITE')
 
-cmd.packadd('folke/tokyonight.nvim')
+cmd.packadd('folke/tokyonight')
   ---@diagnostic disable-next-line: missing-fields
   --require('tokyonight').setup {
    -- styles = {
